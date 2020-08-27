@@ -5,7 +5,7 @@ const styleElement = document.createElement("style");
 
 styleElement.appendChild(
   document.createTextNode(
-    `.${styleRoot}{overflow:hidden;touch-action:none}.${styleChild}{transform-origin: 0 0}`
+    `.${styleRoot}{overflow:visible;touch-action:none}.${styleChild}{transform-origin: 0 0}`
   )
 );
 
